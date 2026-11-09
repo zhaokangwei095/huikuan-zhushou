@@ -118,15 +118,15 @@ Word/WPS 排版打印或转成 PDF 发给客户：
 助手：先复述并算账——合计 ¥2,000.00（人民币贰仟元整），
 定金 50% ¥1,000，尾款验收后 ¥1,000，勾稽正确；
 再按模板输出报价单，并询问是否需要配套合同和收款确认单。
-完整示例见 `examples/示例-咖啡店设计单.md`。
+完整示例见 `examples/coffee-shop-example.md`。
 
 ## 配套文件
 
-- `templates/报价单模板.md`、`templates/简易服务合同模板.md`、
-  `templates/收款确认单模板.md`、`templates/对账台账模板.csv`
+- `templates/quotation-template.md`、`templates/service-contract-template.md`、
+  `templates/receipt-confirmation-template.md`、`templates/ledger-template.csv`
 - `scripts/amount_check.py`：人民币大写转换 + 报价勾稽校验
   （`python3 scripts/amount_check.py check --items 800,1200 --deposit-rate 0.5 --paid 1000`）
-- `examples/示例-咖啡店设计单.md`：完整输入→输出示例
+- `examples/coffee-shop-example.md`：完整输入→输出示例
 
 ## 来源与授权
 
